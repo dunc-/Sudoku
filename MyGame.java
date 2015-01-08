@@ -15,8 +15,8 @@ public class MyGame {
 
 	public static byte[][] b = new byte[729][82];
 	public static byte i = 0;
-	public static final int winWidth = 777;
-	public static final int winHeight = 636;
+	public static final int winWidth = 800;
+	public static final int winHeight = 670;
 	public static final Color MY_GREY = new Color(192, 192, 192);
 
 	public static void main (String[] args) {
