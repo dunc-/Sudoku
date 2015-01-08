@@ -22,4 +22,3 @@ here: https://github.com/dunc-
 Otherwise, have fun!
 
 NOTE: The file you run is called "MyBoard.java".
-NOTE #2: I did not create "board.png" myself. This image was found through a Google search.
