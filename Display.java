@@ -164,16 +164,16 @@ public class Display extends JPanel implements ActionListener {
         if (a.getActionCommand() == "enter")
             MyGame.i = 0;
         else if (a.getActionCommand() == "startHard") {
-             Methods.testBoard(MyGame.b, (byte) 0);
+             Methods.tryGame(MyGame.b, (byte) 0);
              MyGame.i = 20;
         } else if (a.getActionCommand() == "startMedium") {
-             Methods.testBoard(MyGame.b, (byte) 0);
+             Methods.tryGame(MyGame.b, (byte) 0);
              MyGame.i = 35;
         } else if (a.getActionCommand() == "startEasy") {
-             Methods.testBoard(MyGame.b, (byte) 0);
+             Methods.tryGame(MyGame.b, (byte) 0);
              MyGame.i = 50;
         } else if (a.getActionCommand() == "solve")
-            Methods.testBoard(MyGame.b, MyGame.i);
+            Methods.tryGame(MyGame.b, MyGame.i);
         else if (a.getActionCommand() == "goBack") {
             if (MyGame.i > 0)
             MyGame.i -= 1;
