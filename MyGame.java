@@ -28,7 +28,7 @@ public class MyGame {
 	}
 
 	public static void show() {
-		Methods.startGame(b);
+		Methods.start(b);
 		final byte border = 14;
 		JFrame board = new JFrame("Board");
 		board.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
