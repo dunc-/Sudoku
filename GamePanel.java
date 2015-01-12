@@ -12,10 +12,10 @@ import java.awt.*;
 
 public class GamePanel extends Panel {	
 	
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	public GamePanel(Dimension d) {
-       super();
-       this.setPreferredSize(d);
+    public GamePanel(Dimension d) {
+    	super();
+        this.setPreferredSize(d);
     }
 }
