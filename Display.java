@@ -14,8 +14,8 @@ import javax.swing.JPanel;
 
 public class Display extends JPanel implements ActionListener {
 
-	private static final long serialVersionUID = 1L;
-	private int dispWidth = 557;
+    private static final long serialVersionUID = 1L;
+    private int dispWidth = 557;
     private int dispHeight = 580;
     private int buttonWidth = 200;
     private final Color MY_GREEN = new Color(0, 153, 0); 
