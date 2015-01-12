@@ -14,15 +14,15 @@ import javax.swing.*;
 
 public class Buttons extends JButton {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	public Buttons(String action, String command) {
-       super(action);
-       this.setBorder(BorderFactory.createBevelBorder(0));
-       this.setActionCommand(command);        
+    public Buttons(String action, String command) {
+    	super(action);
+	this.setBorder(BorderFactory.createBevelBorder(0));
+	this.setActionCommand(command);        
     }
 
-	public Dimension getPreferredSize() {
+    public Dimension getPreferredSize() {
         return new Dimension(125, 35);
     }   
 }
