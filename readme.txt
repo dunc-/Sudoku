@@ -10,4 +10,4 @@ To implement this program to create a sudoku game, just place the five java file
 
 Otherwise, have fun!
 
-NOTE: The file you run is called "MyBoard.java".
+NOTE: The file you run is called "MyGame.java".
